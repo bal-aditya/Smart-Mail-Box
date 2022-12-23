@@ -9,3 +9,5 @@ Smart mail box delivers us a notification and alarms us via a buzzer whenever we
 - Servo Motor.
 ## Libraries Used
 - Servo Library by [Adafruit](http://adafruit.com/)
+- Unified Sensor  by [Adafruit](https://github.com/adafruit/Adafruit_Sensor)
+
