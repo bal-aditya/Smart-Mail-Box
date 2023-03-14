@@ -31,15 +31,20 @@ void loop()
  distance = (duration*0.034)/2;
  Serial.print(distance);
  irs();
+ if (distance <10){
+  tone(buzzer, sound);
+  //lcd
+ }
  if (distance >30)
  {
   //tone(buzzer, sound);
   Serial.print(distance);
   Serial.println(" cm");
-  if (distance >30)
-  {
-   serv();
-  }
+  //lcd display
+//  if (distance >30)
+ // {
+  // serv();
+  //}
  }
 //else
 //{
