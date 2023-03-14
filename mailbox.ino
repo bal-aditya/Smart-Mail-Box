@@ -35,7 +35,7 @@ void loop()
   tone(buzzer, sound);
   //lcd
  }
- if (distance >30)
+ if (distance >20)
  {
   //tone(buzzer, sound);
   Serial.print(distance);
